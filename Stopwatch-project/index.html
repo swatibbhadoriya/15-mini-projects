@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="toggle-icons">
+            <i class="fas fa-sun" id="toggleMode"></i>
+            <i class="fas fa-expand-arrows-alt" id="toggleFullscreen"></i>
+        </div>
+        <p>Stopwatch</p>
+        <div id="time">
+            <span class="digits" id="hour">00</span>
+            <span class="text">Hr</span>
+            <span class="digits" id="minute">00</span>
+            <span class="text">Min</span>
+            <span class="digits" id="second">00</span>
+            <span class="text">Sec</span>
+            <span class="digits" id="count">00</span>
+        </div>
+        <div id="buttons">
+            <button class="btn start" id="start">Start</button>
+            <button class="btn stop" id="stop">Stop</button>
+            <button class="btn reset" id="reset">Reset</button>
+        </div>
+        <div class="made-by">
+            <p>Made by - Swati Singh❤️</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
