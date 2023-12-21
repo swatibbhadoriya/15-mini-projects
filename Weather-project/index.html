@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezgim3Hhs0gPhRQQNkvNxH2Gm1dN1J5Lr0pa2x6hoon3Xh9S6lIu4u6+3t/ZunYj" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container glassmorphism">
+        <label for="location"><i class="fas fa-map-marker-alt"></i> Enter Location:</label>
+        <input type="text" id="location" placeholder="City Name">
+        <button onclick="getWeather()"><i class="fas fa-search"></i> Get Weather</button>
+        <div id="weather-info" class="glassmorphism">
+            <h2><i class="fas fa-cloud-sun"></i></h2>
+            <p>Temperature: </p>
+            <p>Weather: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
