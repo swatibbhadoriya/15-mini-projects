@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quiz App</title>
+</head>
+<body>
+  <div id="message-container">
+    <p id="message-text">Let's Start, you can play this quiz to check your web development skills...</p>
+    <button id="start-button" onclick="startQuiz()">Start Quiz</button>
+  </div>
+  
+  <div id="quiz-container" style="display: none;">
+    <div id="question-container">
+      <p id="question-text"></p>
+      <div id="options-container"></div>
+      <button id="next-button" onclick="loadNextQuestion()">Next</button>
+    </div>
+    <div id="score-container"></div>
+    <button id="play-again-button" onclick="playAgain()">Play Again</button>
+  </div>
+  <!-- <div>Made By: Swati Singh❤️</div> -->
+  
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
