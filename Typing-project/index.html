@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Typing Practice</title>
+</head>
+<body class="bg-gray-900 text-white h-screen flex items-center justify-center">
+
+    <div id="app" class="bg-gray-800 p-8 rounded-lg shadow-lg">
+        <h1 class="text-4xl font-bold mb-6 text-blue-500">Typing Practice</h1>
+
+        <div id="text-container" class="text-2xl mb-8"></div>
+
+        <textarea id="input" class="w-full h-32 p-4 border rounded-md focus:outline-none focus:ring focus:border-blue-300 bg-gray-700 text-gray-100" placeholder="Start typing here..."></textarea>
+
+        <div class="flex justify-between items-center">
+            <div>
+                <p id="timer" class="text-lg font-semibold mb-2">Time: 0s</p>
+                <p id="score" class="text-lg font-semibold text-green-500">Score: 0</p>
+            </div>
+            <button id="startBtn" class="px-6 py-3 bg-blue-500 text-white rounded-md focus:outline-none hover:bg-blue-600">Start Typing</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
